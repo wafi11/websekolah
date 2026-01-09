@@ -33,8 +33,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/frontend-branch:${{ steps.tag.outputs.TAG }}
-            ${{ secrets.DOCKER_HUB_USERNAME }}/frontend-branch:latest
+            ${{ secrets.DOCKER_HUB_USERNAME }}/websekolah:${{ steps.tag.outputs.TAG }}
+            ${{ secrets.DOCKER_HUB_USERNAME }}/websekolah:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
