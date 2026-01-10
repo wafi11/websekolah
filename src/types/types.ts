@@ -112,3 +112,15 @@ export type AcademicYear = {
   jumlahSiswa: number;
   jumlahGuru: number;
 };
+
+export type Spp = {
+  invoiceNumber: string;
+  nameSiswa: string;
+  amount: number;
+  paymentMethod: string;
+  fee: number;
+  status: string;
+  periode: string;
+  createdAt: string;
+  updatedAt: string;
+};
